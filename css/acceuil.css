@@ -78,13 +78,14 @@ p {
 .new-job a{
     color: white;
   text-decoration: none;
-
+  
 }
 .new-job{
     border:solid 2px white;
     margin-top: 20px;
     border-radius:10px;
     box-shadow: -10px 0px white;
+   
 }
 .new-job a h3{
     font-size: 2em;
@@ -150,4 +151,20 @@ footer h2 {
     background-color: white;
     width:200px;
     height: 50px;
+}
+.end{
+  text-align: center;
+}
+span{
+  background-color:#E2216A;
+  border-radius:5px
+}
+.animate__rotateInDownLeft{
+  animation-duration: 6s;
+}
+.animate__backInLeft{
+  animation-duration: 4s;
+}
+.animate__fadeInUp{
+  animation-duration: 4s;
 }
